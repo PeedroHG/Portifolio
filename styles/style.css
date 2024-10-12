@@ -1,0 +1,66 @@
+
+@import url("./reset.css");
+@import url("./navbar.css");
+@import url("./apresentacao.css");
+@import url("./about.css");
+@import url("./projects.css");
+@import url("./end.css");
+
+:root {
+    --cinza: #8F9094;
+    --cinza-escuro : #141414;
+    --cinza-chumbo: #1e1f29;
+    --verde: #3CCF91;
+    --preto-borda: #111111;
+    --preto-opacity: rgba(0, 0, 0, 0.5);
+    --subtitulos: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    padding: 0 17.5vw;
+}
+
+.conteiner-central {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.efeito {
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out; 
+}
+
+
+.verde {
+    color: var(--verde); 
+    transition: text-shadow 0.3s ease-in-out; 
+}
+
+.verde:hover {
+    text-shadow: 0 0 8px var(--verde); 
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+	background-color: #111111;
+}

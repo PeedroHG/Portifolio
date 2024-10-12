@@ -1,0 +1,61 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid var(--cinza-chumbo);
+    background-color: black;
+    padding: 20px 0vw; 
+    position: fixed;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 2vw;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.logo span {
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: var(--cinza);
+}
+
+.logo span.chave:first-child {
+    margin-right: -5px; 
+}
+
+.logo span.chave:last-child {
+    margin-left: -5px; 
+}
+
+.opcoes {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.opcoes a {
+    padding: 8px 20px;
+    border: transparent solid 1px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.opcoes a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    transform: scale(1.05);
+}
+
+

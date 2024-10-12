@@ -1,0 +1,28 @@
+.end {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end h1 {
+    padding-top: 100px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.end p:nth-of-type(1){
+    line-height: 24px;
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--cinza);
+}
+
+.end p:nth-of-type(2){
+    line-height: 24px;
+    padding: 170px 0 40px 0;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}

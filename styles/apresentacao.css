@@ -1,0 +1,65 @@
+.container-apresentacao {
+    padding: 50px;
+    margin-top: 190px;
+}
+
+.intro h1 {
+    font-size: 10vw;
+    font-weight: 900;
+    margin: 0px 5px;
+}
+.intro h2 {
+    font-size: 10vw;
+    font-weight: 900;
+    margin: 0px 5px;
+}
+
+.intro p:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: var(--verde);
+}
+
+.intro p:nth-of-type(2) {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.intro span {
+    color: var(--cinza);
+}
+
+.details {
+    margin-top: 40px;
+}
+.details p {
+    margin-top: 15px;
+    font-size: 1.3vw;
+    color: var(--cinza);
+}
+
+.social-links {
+    margin-top: 40px;
+}
+.social-links a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cinza-escuro);
+    border: 2px solid transparent;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: rgb(61, 61, 61, 1);
+}
+
+.social-links a:active {
+    border: 2px solid rgba(91, 192, 222, 1);
+    transition:ease 0.4s;
+}

@@ -1,0 +1,141 @@
+.projects-content {
+    margin-top: 190px;
+    display: flex;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-esq {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.card-esq .project-tags span:nth-child(1) {
+    background-color: rgba(143, 197, 63, 0.2);
+    font-weight: 600;
+    color: #90c53f;
+}
+
+.card-esq .project-tags span:nth-child(2) {
+    background-color: rgba(107, 71, 180, 0.2);
+    font-weight: 600;
+    color: #6b47b4;
+}
+
+.card-esq .project-tags span:nth-child(3) {
+    background-color: rgba(74, 125, 164, 0.2);
+    font-weight: 600;
+    color: #4a7da4;
+}
+
+.card-dir {
+    display: flex;
+    flex-direction: column;   
+}
+
+.card-dir .project {
+    border: 0.5px solid var(--preto-borda);
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    box-shadow: 0 0 10px var(--preto-opacity);
+}
+
+.card-esq .project {
+    border: 0.5px solid var(--preto-borda);
+    box-sizing: border-box;
+    margin-top: 190px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    box-shadow: 0 0 10px var(--preto-opacity);
+}
+
+.card-dir .project-tags span:nth-child(1) {
+    background-color: rgba(235, 151, 129, 0.2);
+    font-weight: 600;
+    color: #f38164;
+}
+
+.card-dir .project-tags span:nth-child(2) {
+    background-color: rgba(133, 157, 253, 0.2);
+    font-weight: 600;
+    color: #5874e2;
+}
+
+.card-dir .project-tags span:nth-child(3) {
+    background-color: rgba(241, 223, 82, 0.2);
+    font-weight: 600;
+    color: #dfcd44;
+}
+
+.projects h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    font-family: var(--subtitulos);
+}
+
+.projects p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-title {
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.project-tags {
+    margin: 20px 0;
+}
+
+.project-tags span {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.project-description {
+    line-height: 25px;
+    color: var(--cinza);
+    border-top: 0.5px solid var(--cinza-chumbo);
+    padding-top: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.project-link {
+    text-align: right;
+}
+
+.project-link a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.redirect {
+    font-size: 20px;
+    width: 20px;
+}
