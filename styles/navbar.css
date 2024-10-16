@@ -8,7 +8,7 @@
     padding: 20px 0vw; 
     position: fixed;
     width: 100%; 
-    max-width: 1200px; 
+    max-width: 1400px; 
     margin: 0 auto; 
     z-index: 1000;
 }
@@ -19,7 +19,7 @@
 }
 
 .logo {
-    margin-left: 2vw;
+    margin-left: 1rem;
     font-size: 32px;
     font-weight: 600;
 }
@@ -56,6 +56,26 @@
 .opcoes a:hover {
     background-color: rgba(255, 255, 255, 0.08);
     transform: scale(1.05);
+}
+
+.opcoes i {
+   display: none;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .logo {
+        margin-left: 2rem;
+    }
+    .opcoes a {
+        display: none;       
+    }    
+    .opcoes i {
+        margin-right: 2rem;
+        display:block;   
+        font-size: 1.5rem;
+    }
+
 }
 
 

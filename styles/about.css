@@ -45,5 +45,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    
+    .sobre {
+        padding: 0 1rem;
+        flex-direction: column;
+    }
+    .sobre p {
+        width: 100%;
+        font-size: 14px;
+    }
 }
