@@ -46,11 +46,19 @@
 
 @media screen and (max-width: 767px) {
     .sobre {
-        padding: 0 1rem;
+        padding: 6rem 1rem;
         flex-direction: column;
     }
     .sobre p {
         width: 100%;
         font-size: 14px;
+    }
+    .container-imagem{
+        margin-right: 20px;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .foto-circular {
+        max-width: 90%;
     }
 }
