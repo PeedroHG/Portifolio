@@ -44,6 +44,33 @@
     height: auto; 
 }
 
+.egg {
+    position: relative;
+    cursor: pointer;
+  }
+
+.egg::after {
+    content: "Clique para me ver alguns bons anos atras";
+    position: absolute;
+    bottom: 125%; /* Ajusta a posição acima do link */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--preto-borda);
+    color: var(--verde);
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+.verde:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media screen and (max-width: 767px) {
     .sobre {
         padding: 6rem 1rem;

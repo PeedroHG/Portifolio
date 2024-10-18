@@ -7,14 +7,14 @@
 .end h1 {
     padding-top: 100px;
     color: white;
-    font-size: 48px;
+    font-size: 2.25rem;
     font-weight: 700;
 }
 
 .end p:nth-of-type(1){
     line-height: 24px;
     padding-top: 50px;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: var(--cinza);
 }
@@ -22,7 +22,14 @@
 .end p:nth-of-type(2){
     line-height: 24px;
     padding: 170px 0 40px 0;
-    font-size: 14px;
+    font-size: 0.8rem;
     text-align: center;
     color: white;
+}
+
+@media only screen and (max-width: 770px) { 
+    .end p:nth-of-type(1) {
+        margin-top: 3rem;
+        padding: 0 10px;
+    }
 }

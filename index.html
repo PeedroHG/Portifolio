@@ -55,7 +55,7 @@
         <div id="sobre" class="sobre efeito">
             <div class="about-text">
                 <h2>⚡About Me</h2>
-                <p>Ei! Meu nome é Pedro Henrique Galvão tenho 21 anos, sou próximo do computador desde muito jovem e sou
+                <p>Ei! Meu nome é Pedro Henrique Galvão tenho 21 anos, sou próximo do computador desde muito <a class="verde egg" onclick="mudarImagem()">novo</a> e sou
                     apaixonado por ele desde então.
                     <br><br>
                     Sou técnico em <a href="https://www.dept.cefetmg.br/informatica-para-internet/" class="verde"
@@ -70,7 +70,7 @@
                 </p>
             </div>
             <div class="container-imagem">
-                <img src="./img/foto.png" class="foto-circular efeito">
+                <img id="minha-foto" src="./img/foto.png" class="foto-circular efeito">
             </div>
         </div>
 
@@ -201,6 +201,10 @@
 </body>
 
 <script>
+    function mudarImagem() {
+    document.getElementById("minha-foto").src = "./img/foto2.png"; // Muda para a nova foto
+  }
+
     function isElementInViewport(el) {
         const rect = el.getBoundingClientRect();
 

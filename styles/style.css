@@ -12,6 +12,7 @@
     --cinza-chumbo: #1e1f29;
     --verde: #3CCF91;
     --preto-borda: #111111;
+    --borda-mobile: rgba(255, 255, 255, 0.16);
     --preto-opacity: rgba(0, 0, 0, 0.5);
     --subtitulos: "Ubuntu", sans-serif;
 }
