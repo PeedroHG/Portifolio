@@ -27,6 +27,11 @@
     color: white;
 }
 
+.continue {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
 @media only screen and (max-width: 770px) { 
     .end p:nth-of-type(1) {
         margin-top: 3rem;

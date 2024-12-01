@@ -95,7 +95,7 @@
 }
 
 .project img {
-    width: 100%;
+    width: 70vh;
 }
 
 .project-title {
@@ -140,6 +140,11 @@
     width: 20px;
 }
 
+.img-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 767px) { 
     .projects-content {
         padding: 0 1rem;
